@@ -1,0 +1,23 @@
+.homet>hr,.fashiont>hr{
+    margin-left: -10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 108%;
+    height: 1px;
+    background-color: rgb(233, 233, 233);
+    border: none;
+}
+.homet__in:hover,.fashiont__in:hover{
+    background: rgb(245,243,243);
+    cursor: pointer;
+    
+}
+.homet__in,.fashiont__in{
+    display:flex;
+    align-items: center;
+    padding:10px 40px;
+    border: none;
+    
+   
+    
+}

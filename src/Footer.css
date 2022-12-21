@@ -1,0 +1,98 @@
+.container{
+    height: 350px;
+    width: 100%;
+    background-color: #332d2d;
+    color: aliceblue;
+    margin-left: 0;
+    /* display: inline; */
+}
+.up{
+    display: flex;
+    height: 300px;
+    font-size: small;
+   
+}
+
+.about{
+    margin-top: 5px;
+    margin-left: 60px;
+    font-size: small;
+    
+
+}
+/* .about:hover{
+    text-decoration: underline;
+} */
+.help{
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size: small;
+
+}
+.policy{
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size: small;
+/* color: dimgray; */
+}
+.social{
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size: small;
+
+}
+.mail{
+    margin-top: 5px;
+    margin-left: 0px;
+    font-size: small;
+    padding: o;
+
+}
+.register{
+    margin-top: 5px;
+    margin-left: 30px;
+    font-size: small;
+
+}
+.up>hr{
+    margin-left: 100px;
+    margin-right: 20px;
+    line-height:50px ;
+
+}
+
+.down{
+    display: flex;
+    justify-content: space-evenly;
+   color: aliceblue;
+    align-items: center;
+    font-size: small;
+
+}
+.gift{
+    display: flex;
+    /* padding: 10px 20px; */
+    
+}
+.center{
+    display: flex;
+
+}
+.shop{
+    display: flex;
+    margin-left: 0px;
+    
+}
+.star{
+    display: flex;
+    
+}
+.text:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* .card{
+    color: yellow;
+} */

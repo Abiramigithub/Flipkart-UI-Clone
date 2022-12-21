@@ -1,0 +1,35 @@
+.products{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(248, 244, 244);
+    cursor: pointer;
+    padding: 7px;
+
+}
+.product__3>.sub1,
+.product__4>.sub2,
+.product__5>.sub3,
+.product__9>.sub4,
+.product__10>.sub5{
+display: flex;
+}
+.product__1:hover,
+.product__2:hover,
+.product__3:hover,
+.product__4:hover,
+.product__5:hover,
+.product__6:hover,
+.product__7:hover,
+.product__8:hover,
+.product__9:hover,
+.product__10:hover{
+    color: blue;
+}
+.product__3:hover>.sub1>.MuiSvgIcon-root,
+.product__4:hover>.sub2>.MuiSvgIcon-root,
+.product__5:hover>.sub3>.MuiSvgIcon-root,
+.product__9:hover>.sub4>.MuiSvgIcon-root,
+.product__10:hover>.sub5>.MuiSvgIcon-root {
+    transition: transform 0.2s;
+    transform: rotate(180deg) translateY(-3px) translateX(-3px);
+}
